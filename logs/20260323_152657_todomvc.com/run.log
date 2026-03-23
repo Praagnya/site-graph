@@ -1,0 +1,12 @@
+15:26:57  INFO      Run directory : logs/20260323_152657_todomvc.com
+15:26:57  INFO      Target URL    : https://todomvc.com/examples/react/dist/
+15:26:58  INFO      Launching browser and navigating ...
+15:27:01  DEBUG     Page title: TodoMVC: React
+15:27:01  INFO      Extracting interactive elements ...
+15:27:01  INFO      Found 3 element(s)
+15:27:01  DEBUG       [el_0] <a> selector='[data-ai-id="el_0"]'  text='Source'
+15:27:01  DEBUG       [el_1] <a> selector='[data-ai-id="el_1"]'  text='React'
+15:27:01  DEBUG       [el_2] <input> selector='[data-ai-id="el_2"]'  text='What needs to be done?'
+15:27:01  INFO      Elements saved : logs/20260323_152657_todomvc.com/elements.json
+15:27:01  INFO      Screenshot saved: logs/20260323_152657_todomvc.com/state_1.png
+15:27:01  INFO      Done.

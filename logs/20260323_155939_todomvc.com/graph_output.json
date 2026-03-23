@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "id": "state_001",
+      "url": "https://todomvc.com/examples/react/dist/",
+      "title": "TodoMVC: React",
+      "dom_fingerprint": "1b4d3b63fcdf70896b0eb04ac396ac934870500928f4ab1fa7fe4762526948e8",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2"
+      ],
+      "screenshot": "logs/20260323_155939_todomvc.com/step_01.png"
+    }
+  ],
+  "edges": []
+}

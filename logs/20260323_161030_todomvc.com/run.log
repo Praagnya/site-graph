@@ -1,0 +1,159 @@
+16:10:30  INFO      Run directory : logs/20260323_161030_todomvc.com
+16:10:30  INFO      Target URL    : https://todomvc.com/examples/react/dist/
+16:10:30  INFO      Max steps     : 15
+16:10:34  INFO      --- Step 1/15 ---
+16:10:34  INFO      URL   : https://todomvc.com/examples/react/dist/
+16:10:34  INFO      Title : TodoMVC: React
+16:10:34  INFO      Elements found: 3
+16:10:34  INFO      State : state_001 (NEW)
+16:10:34  DEBUG     Calling LLM ...
+16:10:35  INFO      Action: fill | target=el_2
+16:10:35  DEBUG     Reason: Fill the text input to add a new todo item.
+16:10:35  INFO      Filled       : el_2 = 'Buy groceries'
+16:10:35  INFO      --- Step 2/15 ---
+16:10:35  INFO      URL   : https://todomvc.com/examples/react/dist/
+16:10:35  INFO      Title : TodoMVC: React
+16:10:35  INFO      Elements found: 3
+16:10:35  INFO      State : state_001 (REVISIT)
+16:10:35  DEBUG     Calling LLM ...
+16:10:36  INFO      Action: press | target=el_2
+16:10:36  DEBUG     Reason: Press 'Enter' to submit the new todo item and discover a new state.
+16:10:36  INFO      Pressed      : 'Enter' on el_2
+16:10:36  INFO      --- Step 3/15 ---
+16:10:36  INFO      URL   : https://todomvc.com/examples/react/dist/
+16:10:36  INFO      Title : TodoMVC: React
+16:10:36  INFO      Elements found: 8
+16:10:36  INFO      State : state_002 (NEW)
+16:10:36  DEBUG     Calling LLM ...
+16:10:37  INFO      Action: click | target=el_6
+16:10:37  DEBUG     Reason: Click on the 'Active' link to filter the todo list and discover a new state.
+16:10:37  INFO      Clicked      : el_6
+16:10:37  INFO      --- Step 4/15 ---
+16:10:37  INFO      URL   : https://todomvc.com/examples/react/dist/#/active
+16:10:37  INFO      Title : TodoMVC: React
+16:10:37  INFO      Elements found: 8
+16:10:38  INFO      State : state_003 (NEW)
+16:10:38  DEBUG     Calling LLM ...
+16:10:39  INFO      Action: click | target=el_5
+16:10:39  DEBUG     Reason: Click on the 'All' link to filter the todo list and discover a new state.
+16:10:39  INFO      Clicked      : el_5
+16:10:39  INFO      --- Step 5/15 ---
+16:10:39  INFO      URL   : https://todomvc.com/examples/react/dist/#/
+16:10:39  INFO      Title : TodoMVC: React
+16:10:39  INFO      Elements found: 8
+16:10:39  INFO      State : state_004 (NEW)
+16:10:39  DEBUG     Calling LLM ...
+16:10:40  INFO      Action: click | target=el_7
+16:10:40  DEBUG     Reason: Click on the 'Completed' link to filter the todo list and discover a new state.
+16:10:40  INFO      Clicked      : el_7
+16:10:40  INFO      --- Step 6/15 ---
+16:10:40  INFO      URL   : https://todomvc.com/examples/react/dist/#/completed
+16:10:40  INFO      Title : TodoMVC: React
+16:10:40  INFO      Elements found: 6
+16:10:40  INFO      State : state_005 (NEW)
+16:10:40  DEBUG     Calling LLM ...
+16:10:42  INFO      Action: click | target=el_3
+16:10:42  DEBUG     Reason: Click on the 'All' link to filter the todo list and discover a new state.
+16:10:42  INFO      Clicked      : el_3
+16:10:42  INFO      --- Step 7/15 ---
+16:10:42  INFO      URL   : https://todomvc.com/examples/react/dist/#/
+16:10:42  INFO      Title : TodoMVC: React
+16:10:42  INFO      Elements found: 9
+16:10:42  INFO      State : state_006 (NEW)
+16:10:42  DEBUG     Calling LLM ...
+16:10:43  INFO      Action: fill | target=el_2
+16:10:43  DEBUG     Reason: Fill the text input with a new todo item to potentially discover a new state when submitted.
+16:10:43  INFO      Filled       : el_2 = 'Buy groceries'
+16:10:43  INFO      --- Step 8/15 ---
+16:10:43  INFO      URL   : https://todomvc.com/examples/react/dist/#/
+16:10:43  INFO      Title : TodoMVC: React
+16:10:43  INFO      Elements found: 8
+16:10:43  INFO      State : state_004 (REVISIT)
+16:10:43  DEBUG     Calling LLM ...
+16:10:44  INFO      Action: fill | target=el_2
+16:10:44  DEBUG     Reason: Fill the text input with a new todo item to potentially discover a new state.
+16:10:44  INFO      Filled       : el_2 = 'Buy groceries'
+16:10:44  INFO      --- Step 9/15 ---
+16:10:44  INFO      URL   : https://todomvc.com/examples/react/dist/#/
+16:10:44  INFO      Title : TodoMVC: React
+16:10:44  INFO      Elements found: 8
+16:10:44  INFO      State : state_004 (REVISIT)
+16:10:44  DEBUG     Calling LLM ...
+16:10:45  INFO      Action: click | target=el_6
+16:10:45  DEBUG     Reason: Click on the 'Active' link to filter the todo list and discover a new state.
+16:10:45  INFO      Clicked      : el_6
+16:10:45  INFO      --- Step 10/15 ---
+16:10:45  INFO      URL   : https://todomvc.com/examples/react/dist/#/active
+16:10:45  INFO      Title : TodoMVC: React
+16:10:45  INFO      Elements found: 8
+16:10:45  INFO      State : state_003 (REVISIT)
+16:10:45  DEBUG     Calling LLM ...
+16:10:46  INFO      Action: click | target=el_5
+16:10:46  DEBUG     Reason: Click on the 'All' link to filter the todo list and discover a new state.
+16:10:51  WARNING   Action failed (click on el_5): Page.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("[data-ai-id=\"el_5\"]")
+    - locator resolved to 2 elements. Proceeding with the first one: <button class="destroy" data-ai-id="el_5" data-testid="todo-item-button"></button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+16:10:51  INFO      --- Step 11/15 ---
+16:10:51  INFO      URL   : https://todomvc.com/examples/react/dist/#/active
+16:10:51  INFO      Title : TodoMVC: React
+16:10:51  INFO      Elements found: 8
+16:10:51  INFO      State : state_003 (REVISIT)
+16:10:51  DEBUG     Calling LLM ...
+16:10:53  INFO      Action: click | target=el_7
+16:10:53  DEBUG     Reason: Click on the 'Completed' link to filter the todo list and discover a new state.
+16:10:53  INFO      Clicked      : el_7
+16:10:53  INFO      --- Step 12/15 ---
+16:10:53  INFO      URL   : https://todomvc.com/examples/react/dist/#/completed
+16:10:53  INFO      Title : TodoMVC: React
+16:10:53  INFO      Elements found: 6
+16:10:53  INFO      State : state_005 (REVISIT)
+16:10:53  DEBUG     Calling LLM ...
+16:10:54  INFO      Action: click | target=el_3
+16:10:54  DEBUG     Reason: Click on the 'All' link to explore the state where all tasks are displayed.
+16:10:54  INFO      Clicked      : el_3
+16:10:54  INFO      --- Step 13/15 ---
+16:10:54  INFO      URL   : https://todomvc.com/examples/react/dist/#/
+16:10:54  INFO      Title : TodoMVC: React
+16:10:54  INFO      Elements found: 9
+16:10:54  INFO      State : state_006 (REVISIT)
+16:10:54  DEBUG     Calling LLM ...
+16:10:55  INFO      Action: fill | target=el_2
+16:10:55  DEBUG     Reason: Fill the text input with a new todo item to potentially discover a new state.
+16:10:55  INFO      Filled       : el_2 = 'Buy groceries'
+16:10:55  INFO      --- Step 14/15 ---
+16:10:55  INFO      URL   : https://todomvc.com/examples/react/dist/#/
+16:10:55  INFO      Title : TodoMVC: React
+16:10:55  INFO      Elements found: 8
+16:10:55  INFO      State : state_004 (REVISIT)
+16:10:55  DEBUG     Calling LLM ...
+16:10:56  INFO      Action: fill | target=el_2
+16:10:56  DEBUG     Reason: Fill the text input with a new todo item to potentially discover a new state.
+16:10:56  INFO      Filled       : el_2 = 'Buy groceries'
+16:10:56  INFO      --- Step 15/15 ---
+16:10:56  INFO      URL   : https://todomvc.com/examples/react/dist/#/
+16:10:56  INFO      Title : TodoMVC: React
+16:10:56  INFO      Elements found: 8
+16:10:57  INFO      State : state_004 (REVISIT)
+16:10:57  DEBUG     Calling LLM ...
+16:10:57  INFO      Action: click | target=el_6
+16:10:57  DEBUG     Reason: Click on the 'Active' link to filter the todo list and discover a new state.
+16:10:57  INFO      Clicked      : el_6
+16:10:57  INFO      Graph saved   : logs/20260323_161030_todomvc.com/graph_output.json
+16:10:57  INFO      States found  : 6
+16:10:57  INFO      Transitions   : 8
+16:10:57  INFO      Exploration complete.

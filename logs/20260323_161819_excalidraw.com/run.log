@@ -1,0 +1,405 @@
+16:18:19  INFO      Run directory : logs/20260323_161819_excalidraw.com
+16:18:19  INFO      Target URL    : https://excalidraw.com
+16:18:19  INFO      Max steps     : 15
+16:18:23  INFO      --- Step 1/15 ---
+16:18:23  INFO      URL   : https://excalidraw.com/
+16:18:23  INFO      Title : Excalidraw Whiteboard
+16:18:23  INFO      Elements found: 24
+16:18:24  INFO      State : state_001 (NEW)
+16:18:24  DEBUG     Calling LLM ...
+16:18:25  INFO      Action: click | target=el_3
+16:18:25  DEBUG     Reason: Click on the 'Sign up' link to explore the sign-up page, which is likely to be a new state.
+16:18:25  INFO      Clicked      : el_3
+16:18:25  INFO      --- Step 2/15 ---
+16:18:25  INFO      URL   : https://excalidraw.com/
+16:18:25  INFO      Title : Excalidraw Whiteboard
+16:18:25  INFO      Elements found: 24
+16:18:25  INFO      State : state_001 (REVISIT)
+16:18:25  DEBUG     Calling LLM ...
+16:18:26  INFO      Action: click | target=el_2
+16:18:26  DEBUG     Reason: Click on the 'Live collaboration...' button to explore the live collaboration feature, which might lead to a new state or URL.
+16:18:26  INFO      Clicked      : el_2
+16:18:26  INFO      --- Step 3/15 ---
+16:18:26  INFO      URL   : https://excalidraw.com/
+16:18:26  INFO      Title : Excalidraw Whiteboard
+16:18:26  INFO      Elements found: 25
+16:18:27  INFO      State : state_002 (NEW)
+16:18:27  DEBUG     Calling LLM ...
+16:18:28  INFO      Action: click | target=el_1
+16:18:28  DEBUG     Reason: Click on the 'Help' button to explore the help section or modal, which might lead to a new state.
+16:18:33  WARNING   Action failed (click on el_1): Page.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("[data-ai-id=\"el_1\"]")
+    - locator resolved to <button type="button" data-ai-id="el_1" class="welcome-screen-menu-item ">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <button type="button" data-ai-id="el_24" aria-label="Start session" class="ExcButton ExcButton--color-primary ExcButton--variant-filled ExcButton--size-large ExcButton--status-undefined">…</button> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <button type="button" data-ai-id="el_24" aria-label="Start session" class="ExcButton ExcButton--color-primary ExcButton--variant-filled ExcButton--size-large ExcButton--status-undefined">…</button> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <button type="button" data-ai-id="el_24" aria-label="Start session" class="ExcButton ExcButton--color-primary ExcButton--variant-filled ExcButton--size-large ExcButton--status-undefined">…</button> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+16:18:33  INFO      --- Step 4/15 ---
+16:18:33  INFO      URL   : https://excalidraw.com/
+16:18:33  INFO      Title : Excalidraw Whiteboard
+16:18:33  INFO      Elements found: 25
+16:18:33  INFO      State : state_002 (REVISIT)
+16:18:33  DEBUG     Calling LLM ...
+16:18:34  INFO      Action: click | target=el_0
+16:18:34  DEBUG     Reason: Click on the 'Open' button to explore any file opening functionality or related modals.
+16:18:39  WARNING   Action failed (click on el_0): Page.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("[data-ai-id=\"el_0\"]")
+    - locator resolved to <button type="button" data-ai-id="el_0" class="welcome-screen-menu-item ">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="ShareDialog__picker__description">…</div> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="ShareDialog__picker__description">…</div> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="ShareDialog__picker__description">…</div> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+16:18:39  INFO      --- Step 5/15 ---
+16:18:39  INFO      URL   : https://excalidraw.com/
+16:18:39  INFO      Title : Excalidraw Whiteboard
+16:18:39  INFO      Elements found: 25
+16:18:40  INFO      State : state_002 (REVISIT)
+16:18:40  DEBUG     Calling LLM ...
+16:18:41  INFO      Action: click | target=el_24
+16:18:41  DEBUG     Reason: Click on the 'Start session' button to explore any session-related functionality or new state.
+16:18:41  INFO      Clicked      : el_24
+16:18:41  INFO      --- Step 6/15 ---
+16:18:41  INFO      URL   : https://excalidraw.com/#room=0394b675e143deea60e2,RDfEadaRPBVsxTsljj66hQ
+16:18:41  INFO      Title : Excalidraw Whiteboard
+16:18:41  INFO      Elements found: 26
+16:18:42  INFO      State : state_003 (NEW)
+16:18:42  DEBUG     Calling LLM ...
+16:18:42  INFO      Action: click | target=el_25
+16:18:42  DEBUG     Reason: Click on the 'Start session' button to explore any session-related functionality.
+16:18:47  WARNING   Action failed (click on el_25): Page.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("[data-ai-id=\"el_25\"]")
+
+16:18:47  INFO      --- Step 7/15 ---
+16:18:47  INFO      URL   : https://excalidraw.com/#room=0394b675e143deea60e2,RDfEadaRPBVsxTsljj66hQ
+16:18:47  INFO      Title : Excalidraw Whiteboard
+16:18:47  INFO      Elements found: 29
+16:18:48  INFO      State : state_004 (NEW)
+16:18:48  DEBUG     Calling LLM ...
+16:18:50  INFO      Action: click | target=el_3
+16:18:50  DEBUG     Reason: Click on the 'Sign up' link to explore the sign-up page or modal.
+16:18:55  WARNING   Action failed (click on el_3): Page.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("[data-ai-id=\"el_3\"]")
+    - locator resolved to <a rel="noopener" target="_blank" data-ai-id="el_3" class="welcome-screen-menu-item " href="https://plus.excalidraw.com/plus?utm_source=excalidraw&utm_medium=app&utm_content=welcomeScreenGuest">…</a>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="ShareDialog">…</div> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="ShareDialog">…</div> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="ShareDialog">…</div> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+16:18:55  INFO      --- Step 8/15 ---
+16:18:55  INFO      URL   : https://excalidraw.com/#room=0394b675e143deea60e2,RDfEadaRPBVsxTsljj66hQ
+16:18:55  INFO      Title : Excalidraw Whiteboard
+16:18:55  INFO      Elements found: 29
+16:18:55  INFO      State : state_004 (REVISIT)
+16:18:55  DEBUG     Calling LLM ...
+16:18:56  INFO      Action: click | target=el_2
+16:18:56  DEBUG     Reason: Click on the 'Live collaboration...' button to explore any collaboration-related features or modals.
+16:19:01  WARNING   Action failed (click on el_2): Page.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("[data-ai-id=\"el_2\"]")
+    - locator resolved to <button type="button" data-ai-id="el_2" class="welcome-screen-menu-item ">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <rect width="350" fill="white" height="350"></rect> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <rect width="350" fill="white" height="350"></rect> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <rect width="350" fill="white" height="350"></rect> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+16:19:01  INFO      --- Step 9/15 ---
+16:19:01  INFO      URL   : https://excalidraw.com/#room=0394b675e143deea60e2,RDfEadaRPBVsxTsljj66hQ
+16:19:01  INFO      Title : Excalidraw Whiteboard
+16:19:01  INFO      Elements found: 29
+16:19:02  INFO      State : state_004 (REVISIT)
+16:19:02  DEBUG     Calling LLM ...
+16:19:03  INFO      Action: click | target=el_1
+16:19:03  DEBUG     Reason: Click on the 'Help' button to explore any help-related modal or page.
+16:19:08  WARNING   Action failed (click on el_1): Page.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("[data-ai-id=\"el_1\"]")
+    - locator resolved to <button type="button" data-ai-id="el_1" class="welcome-screen-menu-item ">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <path fill="black" d="M10,10h10v10h-10zM20,10h10v10h-10zM30,10h10v10h-10zM40,10h10v10h-10zM50,10h10v10h-10zM60,10h10v10h-10zM70,10h10v10h-10zM100,10h10v10h-10zM160,10h10v10h-10zM170,10h10v10h-10zM190,10h10v10h-10zM200,10h10v10h-10zM210,10h10v10h-10zM240,10h10v10h-10zM270,10h10v10h-10zM280,10h10v10h-10zM290,10h10v10h-10zM300,10h10v10h-10zM310,10h10v10h-10zM320,10h10v10h-10zM330,10h10v10h-10zM10,20h10v10h-10zM70,20h10v10h-10zM90,20h10v10h-10zM100,20h10v10h-10zM120,20h10v10h-10zM130,20h10v10h-10zM140,2…></path> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <path fill="black" d="M10,10h10v10h-10zM20,10h10v10h-10zM30,10h10v10h-10zM40,10h10v10h-10zM50,10h10v10h-10zM60,10h10v10h-10zM70,10h10v10h-10zM100,10h10v10h-10zM160,10h10v10h-10zM170,10h10v10h-10zM190,10h10v10h-10zM200,10h10v10h-10zM210,10h10v10h-10zM240,10h10v10h-10zM270,10h10v10h-10zM280,10h10v10h-10zM290,10h10v10h-10zM300,10h10v10h-10zM310,10h10v10h-10zM320,10h10v10h-10zM330,10h10v10h-10zM10,20h10v10h-10zM70,20h10v10h-10zM90,20h10v10h-10zM100,20h10v10h-10zM120,20h10v10h-10zM130,20h10v10h-10zM140,2…></path> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <path fill="black" d="M10,10h10v10h-10zM20,10h10v10h-10zM30,10h10v10h-10zM40,10h10v10h-10zM50,10h10v10h-10zM60,10h10v10h-10zM70,10h10v10h-10zM100,10h10v10h-10zM160,10h10v10h-10zM170,10h10v10h-10zM190,10h10v10h-10zM200,10h10v10h-10zM210,10h10v10h-10zM240,10h10v10h-10zM270,10h10v10h-10zM280,10h10v10h-10zM290,10h10v10h-10zM300,10h10v10h-10zM310,10h10v10h-10zM320,10h10v10h-10zM330,10h10v10h-10zM10,20h10v10h-10zM70,20h10v10h-10zM90,20h10v10h-10zM100,20h10v10h-10zM120,20h10v10h-10zM130,20h10v10h-10zM140,2…></path> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+16:19:08  INFO      --- Step 10/15 ---
+16:19:08  INFO      URL   : https://excalidraw.com/#room=0394b675e143deea60e2,RDfEadaRPBVsxTsljj66hQ
+16:19:08  INFO      Title : Excalidraw Whiteboard
+16:19:08  INFO      Elements found: 29
+16:19:08  INFO      State : state_004 (REVISIT)
+16:19:08  DEBUG     Calling LLM ...
+16:19:09  INFO      Action: click | target=el_0
+16:19:09  DEBUG     Reason: Click on the 'Open' button to explore any file opening functionality or modal.
+16:19:14  WARNING   Action failed (click on el_0): Page.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("[data-ai-id=\"el_0\"]")
+    - locator resolved to <button type="button" data-ai-id="el_0" class="welcome-screen-menu-item ">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <rect width="350" fill="white" height="350"></rect> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <rect width="350" fill="white" height="350"></rect> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <rect width="350" fill="white" height="350"></rect> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+16:19:14  INFO      --- Step 11/15 ---
+16:19:14  INFO      URL   : https://excalidraw.com/#room=0394b675e143deea60e2,RDfEadaRPBVsxTsljj66hQ
+16:19:14  INFO      Title : Excalidraw Whiteboard
+16:19:14  INFO      Elements found: 29
+16:19:14  INFO      State : state_004 (REVISIT)
+16:19:14  DEBUG     Calling LLM ...
+16:19:15  INFO      Action: click | target=el_27
+16:19:15  DEBUG     Reason: Click on the 'Copy link' button to explore any functionality related to copying the session link.
+16:19:15  INFO      Clicked      : el_27
+16:19:15  INFO      --- Step 12/15 ---
+16:19:15  INFO      URL   : https://excalidraw.com/#room=0394b675e143deea60e2,RDfEadaRPBVsxTsljj66hQ
+16:19:15  INFO      Title : Excalidraw Whiteboard
+16:19:15  INFO      Elements found: 28
+16:19:15  INFO      State : state_005 (NEW)
+16:19:15  DEBUG     Calling LLM ...
+16:19:16  INFO      Action: click | target=el_4
+16:19:16  DEBUG     Reason: Click on the unnamed button (el_4) to explore any new functionality or modal it might trigger.
+16:19:21  WARNING   Action failed (click on el_4): Page.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("[data-ai-id=\"el_4\"]")
+    - locator resolved to <button type="button" id="radix-:r2:" data-ai-id="el_4" data-state="closed" aria-haspopup="menu" aria-expanded="false" data-testid="main-menu-trigger" class="dropdown-menu-button main-menu-trigger zen-mode-transition">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="Modal__background"></div> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="Modal__background"></div> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="Modal__background"></div> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+16:19:21  INFO      --- Step 13/15 ---
+16:19:21  INFO      URL   : https://excalidraw.com/#room=0394b675e143deea60e2,RDfEadaRPBVsxTsljj66hQ
+16:19:21  INFO      Title : Excalidraw Whiteboard
+16:19:21  INFO      Elements found: 29
+16:19:21  INFO      State : state_004 (REVISIT)
+16:19:21  DEBUG     Calling LLM ...
+16:19:22  INFO      Action: click | target=el_3
+16:19:22  DEBUG     Reason: Click on the 'Sign up' link to explore any new sign-up related page or modal.
+16:19:27  WARNING   Action failed (click on el_3): Page.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("[data-ai-id=\"el_3\"]")
+    - locator resolved to <a rel="noopener" target="_blank" data-ai-id="el_3" class="welcome-screen-menu-item " href="https://plus.excalidraw.com/plus?utm_source=excalidraw&utm_medium=app&utm_content=welcomeScreenGuest">…</a>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="ShareDialog">…</div> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="ShareDialog">…</div> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="ShareDialog">…</div> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+16:19:27  INFO      --- Step 14/15 ---
+16:19:27  INFO      URL   : https://excalidraw.com/#room=0394b675e143deea60e2,RDfEadaRPBVsxTsljj66hQ
+16:19:27  INFO      Title : Excalidraw Whiteboard
+16:19:27  INFO      Elements found: 29
+16:19:28  INFO      State : state_004 (REVISIT)
+16:19:28  DEBUG     Calling LLM ...
+16:19:28  INFO      Action: click | target=el_2
+16:19:28  DEBUG     Reason: Click on the 'Live collaboration...' button to explore any live collaboration features or modals.
+16:19:33  WARNING   Action failed (click on el_2): Page.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("[data-ai-id=\"el_2\"]")
+    - locator resolved to <button type="button" data-ai-id="el_2" class="welcome-screen-menu-item ">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <rect width="350" fill="white" height="350"></rect> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <rect width="350" fill="white" height="350"></rect> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <rect width="350" fill="white" height="350"></rect> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+16:19:33  INFO      --- Step 15/15 ---
+16:19:33  INFO      URL   : https://excalidraw.com/#room=0394b675e143deea60e2,RDfEadaRPBVsxTsljj66hQ
+16:19:33  INFO      Title : Excalidraw Whiteboard
+16:19:33  INFO      Elements found: 29
+16:19:34  INFO      State : state_004 (REVISIT)
+16:19:34  DEBUG     Calling LLM ...
+16:19:35  INFO      Action: click | target=el_1
+16:19:35  DEBUG     Reason: Click on the 'Help' button to explore any help-related functionality or new state.
+16:19:40  WARNING   Action failed (click on el_1): Page.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("[data-ai-id=\"el_1\"]")
+    - locator resolved to <button type="button" data-ai-id="el_1" class="welcome-screen-menu-item ">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <path fill="black" d="M10,10h10v10h-10zM20,10h10v10h-10zM30,10h10v10h-10zM40,10h10v10h-10zM50,10h10v10h-10zM60,10h10v10h-10zM70,10h10v10h-10zM100,10h10v10h-10zM160,10h10v10h-10zM170,10h10v10h-10zM190,10h10v10h-10zM200,10h10v10h-10zM210,10h10v10h-10zM240,10h10v10h-10zM270,10h10v10h-10zM280,10h10v10h-10zM290,10h10v10h-10zM300,10h10v10h-10zM310,10h10v10h-10zM320,10h10v10h-10zM330,10h10v10h-10zM10,20h10v10h-10zM70,20h10v10h-10zM90,20h10v10h-10zM100,20h10v10h-10zM120,20h10v10h-10zM130,20h10v10h-10zM140,2…></path> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <path fill="black" d="M10,10h10v10h-10zM20,10h10v10h-10zM30,10h10v10h-10zM40,10h10v10h-10zM50,10h10v10h-10zM60,10h10v10h-10zM70,10h10v10h-10zM100,10h10v10h-10zM160,10h10v10h-10zM170,10h10v10h-10zM190,10h10v10h-10zM200,10h10v10h-10zM210,10h10v10h-10zM240,10h10v10h-10zM270,10h10v10h-10zM280,10h10v10h-10zM290,10h10v10h-10zM300,10h10v10h-10zM310,10h10v10h-10zM320,10h10v10h-10zM330,10h10v10h-10zM10,20h10v10h-10zM70,20h10v10h-10zM90,20h10v10h-10zM100,20h10v10h-10zM120,20h10v10h-10zM130,20h10v10h-10zM140,2…></path> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    10 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <path fill="black" d="M10,10h10v10h-10zM20,10h10v10h-10zM30,10h10v10h-10zM40,10h10v10h-10zM50,10h10v10h-10zM60,10h10v10h-10zM70,10h10v10h-10zM100,10h10v10h-10zM160,10h10v10h-10zM170,10h10v10h-10zM190,10h10v10h-10zM200,10h10v10h-10zM210,10h10v10h-10zM240,10h10v10h-10zM270,10h10v10h-10zM280,10h10v10h-10zM290,10h10v10h-10zM300,10h10v10h-10zM310,10h10v10h-10zM320,10h10v10h-10zM330,10h10v10h-10zM10,20h10v10h-10zM70,20h10v10h-10zM90,20h10v10h-10zM100,20h10v10h-10zM120,20h10v10h-10zM130,20h10v10h-10zM140,2…></path> from <div class="excalidraw excalidraw-modal-container">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+16:19:40  INFO      Graph saved   : logs/20260323_161819_excalidraw.com/graph_output.json
+16:19:40  INFO      States found  : 5
+16:19:40  INFO      Transitions   : 5
+16:19:40  INFO      Exploration complete.

@@ -1,0 +1,63 @@
+15:59:39  INFO      Run directory : logs/20260323_155939_todomvc.com
+15:59:39  INFO      Target URL    : https://todomvc.com/examples/react/dist/
+15:59:39  INFO      Max steps     : 15
+15:59:43  INFO      --- Step 1/15 ---
+15:59:43  INFO      URL   : https://todomvc.com/examples/react/dist/
+15:59:43  INFO      Title : TodoMVC: React
+15:59:43  INFO      Elements found: 3
+15:59:44  INFO      State : state_001 (NEW)
+15:59:44  DEBUG     Calling LLM ...
+15:59:45  INFO      Action: fill | target=el_2
+15:59:45  DEBUG     Reason: Filling the text input to add a new todo item, which will likely change the state of the application by adding a new item to the list.
+15:59:45  INFO      Filled       : el_2 = 'Buy groceries'
+15:59:45  INFO      --- Step 2/15 ---
+15:59:45  INFO      URL   : https://todomvc.com/examples/react/dist/
+15:59:45  INFO      Title : TodoMVC: React
+15:59:45  INFO      Elements found: 3
+15:59:45  INFO      State : state_001 (REVISIT)
+15:59:45  DEBUG     Calling LLM ...
+15:59:46  INFO      Action: fill | target=el_2
+15:59:46  DEBUG     Reason: Filling the text input with a new todo item to see if it changes the state by adding a new item to the list.
+15:59:46  INFO      Filled       : el_2 = 'Buy groceries'
+15:59:46  INFO      --- Step 3/15 ---
+15:59:46  INFO      URL   : https://todomvc.com/examples/react/dist/
+15:59:46  INFO      Title : TodoMVC: React
+15:59:46  INFO      Elements found: 3
+15:59:46  INFO      State : state_001 (REVISIT)
+15:59:46  DEBUG     Calling LLM ...
+15:59:47  INFO      Action: fill | target=el_2
+15:59:47  DEBUG     Reason: Fill the text input with a new todo item to see if it changes the state by adding a new item to the list.
+15:59:47  INFO      Filled       : el_2 = 'Buy groceries'
+15:59:47  INFO      --- Step 4/15 ---
+15:59:47  INFO      URL   : https://todomvc.com/examples/react/dist/
+15:59:47  INFO      Title : TodoMVC: React
+15:59:47  INFO      Elements found: 3
+15:59:47  INFO      State : state_001 (REVISIT)
+15:59:47  DEBUG     Calling LLM ...
+15:59:48  INFO      Action: click | target=el_0
+15:59:48  DEBUG     Reason: Click on the 'Source' link to explore a potential new state or URL.
+15:59:49  INFO      Clicked      : el_0
+15:59:51  WARNING   Left domain (github.com), navigating back ...
+15:59:52  INFO      --- Step 5/15 ---
+15:59:52  INFO      URL   : https://todomvc.com/examples/react/dist/
+15:59:52  INFO      Title : TodoMVC: React
+15:59:52  INFO      Elements found: 3
+15:59:52  INFO      State : state_001 (REVISIT)
+15:59:52  DEBUG     Calling LLM ...
+15:59:53  INFO      Action: click | target=el_1
+15:59:53  DEBUG     Reason: Click on the 'React' link to explore a potential new state or URL.
+15:59:54  INFO      Clicked      : el_1
+15:59:55  WARNING   Left domain (legacy.reactjs.org), navigating back ...
+15:59:56  INFO      --- Step 6/15 ---
+15:59:56  INFO      URL   : https://todomvc.com/examples/react/dist/
+15:59:56  INFO      Title : TodoMVC: React
+15:59:56  INFO      Elements found: 3
+15:59:56  INFO      State : state_001 (REVISIT)
+15:59:56  DEBUG     Calling LLM ...
+15:59:57  INFO      Action: finish | target=None
+15:59:57  DEBUG     Reason: All interactive elements have been explored, and no new states can be discovered.
+15:59:57  INFO      LLM decided: finish
+15:59:57  INFO      Graph saved   : logs/20260323_155939_todomvc.com/graph_output.json
+15:59:57  INFO      States found  : 1
+15:59:57  INFO      Transitions   : 0
+15:59:57  INFO      Exploration complete.

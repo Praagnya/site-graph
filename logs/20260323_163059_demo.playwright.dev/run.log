@@ -1,0 +1,143 @@
+16:30:59  INFO      Run directory : logs/20260323_163059_demo.playwright.dev
+16:30:59  INFO      Target URL    : https://demo.playwright.dev/todomvc
+16:30:59  INFO      Max steps     : 15
+16:31:02  INFO      --- Step 1/15 ---
+16:31:02  INFO      URL   : https://demo.playwright.dev/todomvc/#/
+16:31:02  INFO      Title : React • TodoMVC
+16:31:02  INFO      Elements found: 3
+16:31:02  INFO      State : state_001 (NEW)
+16:31:02  DEBUG     Calling LLM ...
+16:31:03  INFO      Action: fill | target=el_1
+16:31:03  DEBUG     Reason: Fill the input field with a new todo item to explore the state change when a new todo is added.
+16:31:03  INFO      Filled       : el_1 = 'Buy groceries'
+16:31:03  INFO      --- Step 2/15 ---
+16:31:03  INFO      URL   : https://demo.playwright.dev/todomvc/#/
+16:31:03  INFO      Title : React • TodoMVC
+16:31:03  INFO      Elements found: 3
+16:31:03  INFO      State : state_001 (REVISIT)
+16:31:03  DEBUG     Calling LLM ...
+16:31:05  INFO      Action: press | target=el_1
+16:31:05  DEBUG     Reason: Press 'Enter' on the input field to submit the new todo item and explore the resulting state change.
+16:31:05  INFO      Pressed      : 'Enter' on el_1
+16:31:05  INFO      --- Step 3/15 ---
+16:31:05  INFO      URL   : https://demo.playwright.dev/todomvc/#/
+16:31:05  INFO      Title : React • TodoMVC
+16:31:05  INFO      Elements found: 8
+16:31:05  INFO      State : state_002 (NEW)
+16:31:05  DEBUG     Calling LLM ...
+16:31:05  INFO      Action: click | target=el_4
+16:31:05  DEBUG     Reason: Click on the 'All' link to explore the state showing all todo items.
+16:31:05  INFO      Clicked      : el_4
+16:31:05  INFO      --- Step 4/15 ---
+16:31:05  INFO      URL   : https://demo.playwright.dev/todomvc/#/
+16:31:05  INFO      Title : React • TodoMVC
+16:31:05  INFO      Elements found: 8
+16:31:05  INFO      State : state_002 (REVISIT)
+16:31:05  DEBUG     Calling LLM ...
+16:31:06  INFO      Action: click | target=el_5
+16:31:06  DEBUG     Reason: Click on the 'Active' link to explore the state showing only active todos.
+16:31:06  INFO      Clicked      : el_5
+16:31:06  INFO      --- Step 5/15 ---
+16:31:06  INFO      URL   : https://demo.playwright.dev/todomvc/#/active
+16:31:06  INFO      Title : React • TodoMVC
+16:31:06  INFO      Elements found: 8
+16:31:06  INFO      State : state_003 (NEW)
+16:31:06  DEBUG     Calling LLM ...
+16:31:07  INFO      Action: click | target=el_6
+16:31:07  DEBUG     Reason: Click on the 'Completed' link to explore the state showing only completed todos.
+16:31:07  INFO      Clicked      : el_6
+16:31:07  INFO      --- Step 6/15 ---
+16:31:07  INFO      URL   : https://demo.playwright.dev/todomvc/#/completed
+16:31:07  INFO      Title : React • TodoMVC
+16:31:07  INFO      Elements found: 7
+16:31:07  INFO      State : state_004 (NEW)
+16:31:07  DEBUG     Calling LLM ...
+16:31:08  INFO      Action: click | target=el_3
+16:31:08  DEBUG     Reason: Click on the 'All' link to explore the state showing all todos, as this might lead to a new state or URL.
+16:31:08  INFO      Clicked      : el_3
+16:31:08  INFO      --- Step 7/15 ---
+16:31:08  INFO      URL   : https://demo.playwright.dev/todomvc/#/
+16:31:08  INFO      Title : React • TodoMVC
+16:31:08  INFO      Elements found: 9
+16:31:08  INFO      State : state_005 (NEW)
+16:31:08  DEBUG     Calling LLM ...
+16:31:09  INFO      Action: click | target=el_8
+16:31:09  DEBUG     Reason: Click on the 'Remo H. Jansen' link to explore a potential new state or page related to the author.
+16:31:10  INFO      Clicked      : el_8
+16:31:12  WARNING   Left domain (github.com), navigating back ...
+16:31:12  INFO      --- Step 8/15 ---
+16:31:12  INFO      URL   : https://demo.playwright.dev/todomvc/#/
+16:31:12  INFO      Title : React • TodoMVC
+16:31:12  INFO      Elements found: 8
+16:31:12  INFO      State : state_002 (REVISIT)
+16:31:12  DEBUG     Calling LLM ...
+16:31:14  INFO      Action: fill | target=el_1
+16:31:14  DEBUG     Reason: Fill the text input to add a new todo item, which could lead to a new state when submitted.
+16:31:14  INFO      Filled       : el_1 = 'New Todo Item'
+16:31:14  INFO      --- Step 9/15 ---
+16:31:14  INFO      URL   : https://demo.playwright.dev/todomvc/#/
+16:31:14  INFO      Title : React • TodoMVC
+16:31:14  INFO      Elements found: 8
+16:31:14  INFO      State : state_002 (REVISIT)
+16:31:14  DEBUG     Calling LLM ...
+16:31:15  INFO      Action: fill | target=el_1
+16:31:15  DEBUG     Reason: Fill the text input to add a new todo item, which could lead to a new state with a new todo item added.
+16:31:15  INFO      Filled       : el_1 = 'Buy groceries'
+16:31:15  INFO      --- Step 10/15 ---
+16:31:15  INFO      URL   : https://demo.playwright.dev/todomvc/#/
+16:31:15  INFO      Title : React • TodoMVC
+16:31:15  INFO      Elements found: 8
+16:31:15  INFO      State : state_002 (REVISIT)
+16:31:15  DEBUG     Calling LLM ...
+16:31:16  INFO      Action: click | target=el_5
+16:31:16  DEBUG     Reason: Click on the 'Active' link to explore the state showing active todos, which hasn't been visited yet.
+16:31:17  INFO      Clicked      : el_5
+16:31:17  INFO      --- Step 11/15 ---
+16:31:17  INFO      URL   : https://demo.playwright.dev/todomvc/#/active
+16:31:17  INFO      Title : React • TodoMVC
+16:31:17  INFO      Elements found: 8
+16:31:17  INFO      State : state_003 (REVISIT)
+16:31:17  DEBUG     Calling LLM ...
+16:31:17  INFO      Action: click | target=el_6
+16:31:17  DEBUG     Reason: Click on the 'Completed' link to explore the state showing completed todos, which hasn't been visited yet in this session.
+16:31:17  INFO      Clicked      : el_6
+16:31:17  INFO      --- Step 12/15 ---
+16:31:17  INFO      URL   : https://demo.playwright.dev/todomvc/#/completed
+16:31:17  INFO      Title : React • TodoMVC
+16:31:17  INFO      Elements found: 7
+16:31:17  INFO      State : state_004 (REVISIT)
+16:31:17  DEBUG     Calling LLM ...
+16:31:18  INFO      Action: click | target=el_3
+16:31:18  DEBUG     Reason: Click on the 'All' link to explore the state showing all todo items, which hasn't been visited yet.
+16:31:19  INFO      Clicked      : el_3
+16:31:19  INFO      --- Step 13/15 ---
+16:31:19  INFO      URL   : https://demo.playwright.dev/todomvc/#/
+16:31:19  INFO      Title : React • TodoMVC
+16:31:19  INFO      Elements found: 9
+16:31:19  INFO      State : state_005 (REVISIT)
+16:31:19  DEBUG     Calling LLM ...
+16:31:19  INFO      Action: click | target=el_7
+16:31:19  DEBUG     Reason: Click on the 'Completed' link to explore the state showing completed todos.
+16:31:19  INFO      Clicked      : el_7
+16:31:19  INFO      --- Step 14/15 ---
+16:31:19  INFO      URL   : https://demo.playwright.dev/todomvc/#/completed
+16:31:19  INFO      Title : React • TodoMVC
+16:31:19  INFO      Elements found: 7
+16:31:19  INFO      State : state_004 (REVISIT)
+16:31:19  DEBUG     Calling LLM ...
+16:31:21  INFO      Action: click | target=el_4
+16:31:21  DEBUG     Reason: Click on the 'Active' link to explore the state showing active todos, which hasn't been visited yet in this session.
+16:31:21  INFO      Clicked      : el_4
+16:31:21  INFO      --- Step 15/15 ---
+16:31:21  INFO      URL   : https://demo.playwright.dev/todomvc/#/active
+16:31:21  INFO      Title : React • TodoMVC
+16:31:21  INFO      Elements found: 9
+16:31:21  INFO      State : state_006 (NEW)
+16:31:21  DEBUG     Calling LLM ...
+16:31:22  INFO      Action: click | target=el_5
+16:31:22  DEBUG     Reason: Click on the 'All' link to explore the state showing all todos, which hasn't been visited yet.
+16:31:22  INFO      Clicked      : el_5
+16:31:22  INFO      Graph saved   : logs/20260323_163059_demo.playwright.dev/graph_output.json
+16:31:22  INFO      States found  : 6
+16:31:22  INFO      Transitions   : 7
+16:31:22  INFO      Exploration complete.

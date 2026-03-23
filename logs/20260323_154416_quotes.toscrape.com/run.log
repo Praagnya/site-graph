@@ -1,0 +1,152 @@
+15:44:16  INFO      Run directory : logs/20260323_154416_quotes.toscrape.com
+15:44:16  INFO      Target URL    : http://quotes.toscrape.com
+15:44:16  INFO      Max steps     : 15
+15:44:20  INFO      --- Step 1/15 ---
+15:44:20  INFO      URL   : http://quotes.toscrape.com/
+15:44:20  INFO      Title : Quotes to Scrape
+15:44:20  INFO      Elements found: 6
+15:44:20  INFO      State : state_001 (NEW)
+15:44:20  DEBUG     Calling LLM ...
+15:44:21  INFO      Action: click | target=el_1
+15:44:21  DEBUG     Reason: Clicking on the 'Login' link is likely to lead to a new page or modal where users can enter their credentials, thus exploring a new state of the application.
+15:44:22  INFO      Clicked      : el_1
+15:44:22  INFO      --- Step 2/15 ---
+15:44:22  INFO      URL   : http://quotes.toscrape.com/login
+15:44:22  INFO      Title : Quotes to Scrape
+15:44:22  INFO      Elements found: 6
+15:44:23  INFO      State : state_002 (NEW)
+15:44:23  DEBUG     Calling LLM ...
+15:44:24  INFO      Action: fill | target=el_2
+15:44:24  DEBUG     Reason: The current page is a login page, and there are input fields present. To explore further, I will start by filling in the first input field, which is likely for the username or email. This could lead to a new state if the form submission is successful.
+15:44:24  INFO      Filled       : el_2 = 'user@example.com'
+15:44:24  INFO      --- Step 3/15 ---
+15:44:24  INFO      URL   : http://quotes.toscrape.com/login
+15:44:24  INFO      Title : Quotes to Scrape
+15:44:24  INFO      Elements found: 6
+15:44:24  INFO      State : state_002 (REVISIT)
+15:44:24  DEBUG     Calling LLM ...
+15:44:26  INFO      Action: fill | target=el_2
+15:44:26  DEBUG     Reason: The current page is a login form. To explore the login functionality, I should fill in the email input field with a test email address. This is likely to lead to a new state if I proceed with a login attempt.
+15:44:26  INFO      Filled       : el_2 = 'user@example.com'
+15:44:26  INFO      --- Step 4/15 ---
+15:44:26  INFO      URL   : http://quotes.toscrape.com/login
+15:44:26  INFO      Title : Quotes to Scrape
+15:44:26  INFO      Elements found: 6
+15:44:26  INFO      State : state_002 (REVISIT)
+15:44:26  DEBUG     Calling LLM ...
+15:44:27  INFO      Action: fill | target=el_2
+15:44:27  DEBUG     Reason: The current page is a login form. To explore the login functionality, I should fill in the username field first. This will help me discover any new states related to form submission or error handling.
+15:44:27  INFO      Filled       : el_2 = 'username'
+15:44:27  INFO      --- Step 5/15 ---
+15:44:27  INFO      URL   : http://quotes.toscrape.com/login
+15:44:27  INFO      Title : Quotes to Scrape
+15:44:27  INFO      Elements found: 6
+15:44:27  INFO      State : state_002 (REVISIT)
+15:44:27  DEBUG     Calling LLM ...
+15:44:30  INFO      Action: fill | target=el_2
+15:44:30  DEBUG     Reason: The current page is a login form with input fields. To explore the login functionality, I will fill in the first input field, which is likely for the username. This action has not been performed yet, and it could lead to a new state if the form is submitted later.
+15:44:30  INFO      Filled       : el_2 = 'username'
+15:44:30  INFO      --- Step 6/15 ---
+15:44:30  INFO      URL   : http://quotes.toscrape.com/login
+15:44:30  INFO      Title : Quotes to Scrape
+15:44:30  INFO      Elements found: 6
+15:44:30  INFO      State : state_002 (REVISIT)
+15:44:30  DEBUG     Calling LLM ...
+15:44:31  INFO      Action: fill | target=el_3
+15:44:31  DEBUG     Reason: The current page is a login form, and we have previously interacted with the first input field. To explore the login functionality further, we should fill the second input field, which is likely for the password, to see if it leads to a new state or error message.
+15:44:31  INFO      Filled       : el_3 = 'password123'
+15:44:31  INFO      --- Step 7/15 ---
+15:44:31  INFO      URL   : http://quotes.toscrape.com/login
+15:44:31  INFO      Title : Quotes to Scrape
+15:44:31  INFO      Elements found: 6
+15:44:31  INFO      State : state_002 (REVISIT)
+15:44:31  DEBUG     Calling LLM ...
+15:44:33  INFO      Action: fill | target=el_4
+15:44:33  DEBUG     Reason: The current page is a login form with input fields. We have already interacted with the username field (el_2) and the password field (el_3). The next logical step is to fill the third input field (el_4), which might be another required field for login, such as a password confirmation or a captcha. This action could lead to a new state if it is necessary for form submission.
+15:44:33  WARNING   Action failed (fill on el_4): Page.fill: Error: Input of type "submit" cannot be filled
+Call log:
+  - waiting for locator("[data-ai-id=\"el_4\"]")
+    - locator resolved to <input type="submit" value="Login" data-ai-id="el_4" class="btn btn-primary"/>
+    - fill("password123")
+  - attempting fill action
+    - waiting for element to be visible, enabled and editable
+
+15:44:33  INFO      --- Step 8/15 ---
+15:44:33  INFO      URL   : http://quotes.toscrape.com/login
+15:44:33  INFO      Title : Quotes to Scrape
+15:44:33  INFO      Elements found: 6
+15:44:33  INFO      State : state_002 (REVISIT)
+15:44:33  DEBUG     Calling LLM ...
+15:44:35  INFO      Action: click | target=el_1
+15:44:35  DEBUG     Reason: The 'Login' link (el_1) is present on the current page, and clicking it might lead to a new state or refresh the current login page, potentially revealing new elements or messages. This action is worth trying as it could change the state of the application.
+15:44:35  INFO      Clicked      : el_1
+15:44:36  INFO      --- Step 9/15 ---
+15:44:36  INFO      URL   : http://quotes.toscrape.com/login
+15:44:36  INFO      Title : Quotes to Scrape
+15:44:36  INFO      Elements found: 6
+15:44:36  INFO      State : state_002 (REVISIT)
+15:44:36  DEBUG     Calling LLM ...
+15:44:37  INFO      Action: click | target=el_5
+15:44:37  DEBUG     Reason: The 'GoodReads.com' link (el_5) is an external link that likely leads to a new state or page that we haven't visited yet. Clicking this link will help us explore a new state of the application.
+15:44:38  INFO      Clicked      : el_5
+15:44:43  WARNING   Left domain (www.goodreads.com), navigating back ...
+15:44:44  INFO      --- Step 10/15 ---
+15:44:44  INFO      URL   : http://quotes.toscrape.com/login
+15:44:44  INFO      Title : Quotes to Scrape
+15:44:44  INFO      Elements found: 6
+15:44:44  INFO      State : state_002 (REVISIT)
+15:44:44  DEBUG     Calling LLM ...
+15:44:45  INFO      Action: click | target=el_0
+15:44:45  DEBUG     Reason: The 'Quotes to Scrape' link (el_0) is likely to take us to the homepage or a different section of the site. Since we have not interacted with this element yet, clicking it may lead us to a new state or URL that we haven't explored.
+15:44:45  INFO      Clicked      : el_0
+15:44:46  INFO      --- Step 11/15 ---
+15:44:46  INFO      URL   : http://quotes.toscrape.com/
+15:44:46  INFO      Title : Quotes to Scrape
+15:44:46  INFO      Elements found: 6
+15:44:46  INFO      State : state_001 (REVISIT)
+15:44:46  DEBUG     Calling LLM ...
+15:44:47  INFO      Action: click | target=el_2
+15:44:47  DEBUG     Reason: The '(about)' link (el_2) is likely to lead to an 'About' page or section that we haven't visited yet. This action will help us explore a new state of the web application that hasn't been visited before.
+15:44:48  INFO      Clicked      : el_2
+15:44:48  INFO      --- Step 12/15 ---
+15:44:48  INFO      URL   : http://quotes.toscrape.com/author/Albert-Einstein/
+15:44:48  INFO      Title : Quotes to Scrape
+15:44:48  INFO      Elements found: 3
+15:44:48  INFO      State : state_003 (NEW)
+15:44:48  DEBUG     Calling LLM ...
+15:44:50  INFO      Action: click | target=el_2
+15:44:50  DEBUG     Reason: The 'GoodReads.com' link (el_2) is an external link that likely leads to a new state outside the current domain. Since we have not visited this link yet, it will take us to a new state, potentially revealing more information or interactions related to Albert Einstein on GoodReads.
+15:44:50  INFO      Clicked      : el_2
+15:44:53  WARNING   Left domain (www.goodreads.com), navigating back ...
+15:44:53  INFO      --- Step 13/15 ---
+15:44:53  INFO      URL   : http://quotes.toscrape.com/author/Albert-Einstein/
+15:44:53  INFO      Title : Quotes to Scrape
+15:44:53  INFO      Elements found: 3
+15:44:53  INFO      State : state_003 (REVISIT)
+15:44:53  DEBUG     Calling LLM ...
+15:44:55  INFO      Action: click | target=el_2
+15:44:55  DEBUG     Reason: The 'GoodReads.com' link (el_2) is an external link that likely leads to a new state we haven't explored yet. Since we haven't visited this external site from the current page, clicking it will help us discover a new state.
+15:44:55  INFO      Clicked      : el_2
+15:45:00  WARNING   Left domain (www.goodreads.com), navigating back ...
+15:45:01  INFO      --- Step 14/15 ---
+15:45:01  INFO      URL   : http://quotes.toscrape.com/author/Albert-Einstein/
+15:45:01  INFO      Title : Quotes to Scrape
+15:45:01  INFO      Elements found: 3
+15:45:01  INFO      State : state_003 (REVISIT)
+15:45:01  DEBUG     Calling LLM ...
+15:45:02  INFO      Action: click | target=el_1
+15:45:02  DEBUG     Reason: The 'Login' link (el_1) is an interactive element that we haven't interacted with yet. Clicking it might lead to a new state, such as a login page or form, which we haven't explored yet. This will help us discover a new state of the web application.
+15:45:02  INFO      Clicked      : el_1
+15:45:03  INFO      --- Step 15/15 ---
+15:45:03  INFO      URL   : http://quotes.toscrape.com/login
+15:45:03  INFO      Title : Quotes to Scrape
+15:45:03  INFO      Elements found: 6
+15:45:03  INFO      State : state_002 (REVISIT)
+15:45:03  DEBUG     Calling LLM ...
+15:45:04  INFO      Action: fill | target=el_2
+15:45:04  DEBUG     Reason: The current page is a login page, and there are three input fields. The first two inputs are likely for username and password. To explore the login functionality, I will fill in the first input field with a sample username. This action will help us discover if there are any validation messages or changes in the state of the page after filling the input.
+15:45:04  INFO      Filled       : el_2 = 'username'
+15:45:04  INFO      Graph saved   : logs/20260323_154416_quotes.toscrape.com/graph_output.json
+15:45:04  INFO      States found  : 3
+15:45:04  INFO      Transitions   : 4
+15:45:04  INFO      Exploration complete.

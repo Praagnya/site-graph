@@ -1,0 +1,142 @@
+15:57:57  INFO      Run directory : logs/20260323_155757_quotes.toscrape.com
+15:57:57  INFO      Target URL    : http://quotes.toscrape.com
+15:57:57  INFO      Max steps     : 15
+15:58:00  INFO      --- Step 1/15 ---
+15:58:00  INFO      URL   : http://quotes.toscrape.com/
+15:58:00  INFO      Title : Quotes to Scrape
+15:58:00  INFO      Elements found: 6
+15:58:00  INFO      State : state_001 (NEW)
+15:58:00  DEBUG     Calling LLM ...
+15:58:01  INFO      Action: click | target=el_1
+15:58:01  DEBUG     Reason: Click on the 'Login' link to explore the login page, which is likely a new state.
+15:58:02  INFO      Clicked      : el_1
+15:58:02  INFO      --- Step 2/15 ---
+15:58:02  INFO      URL   : http://quotes.toscrape.com/login
+15:58:02  INFO      Title : Quotes to Scrape
+15:58:02  INFO      Elements found: 6
+15:58:03  INFO      State : state_002 (NEW)
+15:58:03  DEBUG     Calling LLM ...
+15:58:04  INFO      Action: fill | target=el_2
+15:58:04  DEBUG     Reason: Fill the username input field with a test username to prepare for form submission.
+15:58:04  INFO      Filled       : el_2 = 'testuser'
+15:58:04  INFO      --- Step 3/15 ---
+15:58:04  INFO      URL   : http://quotes.toscrape.com/login
+15:58:04  INFO      Title : Quotes to Scrape
+15:58:04  INFO      Elements found: 6
+15:58:04  INFO      State : state_002 (REVISIT)
+15:58:04  DEBUG     Calling LLM ...
+15:58:05  INFO      Action: fill | target=el_3
+15:58:05  DEBUG     Reason: Fill the password input field to prepare for form submission.
+15:58:05  INFO      Filled       : el_3 = 'testpassword'
+15:58:05  INFO      --- Step 4/15 ---
+15:58:05  INFO      URL   : http://quotes.toscrape.com/login
+15:58:05  INFO      Title : Quotes to Scrape
+15:58:05  INFO      Elements found: 6
+15:58:05  INFO      State : state_002 (REVISIT)
+15:58:05  DEBUG     Calling LLM ...
+15:58:05  INFO      Action: click | target=el_4
+15:58:05  DEBUG     Reason: Submit the login form to explore the resulting state after form submission.
+15:58:06  INFO      Clicked      : el_4
+15:58:07  INFO      --- Step 5/15 ---
+15:58:07  INFO      URL   : http://quotes.toscrape.com/
+15:58:07  INFO      Title : Quotes to Scrape
+15:58:07  INFO      Elements found: 7
+15:58:07  INFO      State : state_003 (NEW)
+15:58:07  DEBUG     Calling LLM ...
+15:58:08  INFO      Action: click | target=el_2
+15:58:08  DEBUG     Reason: Click on the '(about)' link to explore the about page.
+15:58:08  INFO      Clicked      : el_2
+15:58:09  INFO      --- Step 6/15 ---
+15:58:09  INFO      URL   : http://quotes.toscrape.com/author/Albert-Einstein/
+15:58:09  INFO      Title : Quotes to Scrape
+15:58:09  INFO      Elements found: 3
+15:58:09  INFO      State : state_004 (NEW)
+15:58:09  DEBUG     Calling LLM ...
+15:58:11  INFO      Action: click | target=el_0
+15:58:11  DEBUG     Reason: Click on the 'Quotes to Scrape' link to explore the homepage and discover any new states or elements there.
+15:58:11  INFO      Clicked      : el_0
+15:58:12  INFO      --- Step 7/15 ---
+15:58:12  INFO      URL   : http://quotes.toscrape.com/
+15:58:12  INFO      Title : Quotes to Scrape
+15:58:12  INFO      Elements found: 7
+15:58:12  INFO      State : state_003 (REVISIT)
+15:58:12  DEBUG     Calling LLM ...
+15:58:13  INFO      Action: click | target=el_5
+15:58:13  DEBUG     Reason: Click on the 'Next →' link to explore the next page of quotes.
+15:58:13  INFO      Clicked      : el_5
+15:58:14  INFO      --- Step 8/15 ---
+15:58:14  INFO      URL   : http://quotes.toscrape.com/page/2/
+15:58:14  INFO      Title : Quotes to Scrape
+15:58:14  INFO      Elements found: 7
+15:58:14  INFO      State : state_005 (NEW)
+15:58:14  DEBUG     Calling LLM ...
+15:58:15  INFO      Action: click | target=el_1
+15:58:15  DEBUG     Reason: Click on the 'Logout' link to explore the resulting state after logging out.
+15:58:16  INFO      Clicked      : el_1
+15:58:16  INFO      --- Step 9/15 ---
+15:58:16  INFO      URL   : http://quotes.toscrape.com/
+15:58:16  INFO      Title : Quotes to Scrape
+15:58:16  INFO      Elements found: 6
+15:58:17  INFO      State : state_001 (REVISIT)
+15:58:17  DEBUG     Calling LLM ...
+15:58:18  INFO      Action: click | target=el_1
+15:58:18  DEBUG     Reason: Click on the 'Login' link to explore the login page, which hasn't been visited yet.
+15:58:18  INFO      Clicked      : el_1
+15:58:19  INFO      --- Step 10/15 ---
+15:58:19  INFO      URL   : http://quotes.toscrape.com/login
+15:58:19  INFO      Title : Quotes to Scrape
+15:58:19  INFO      Elements found: 6
+15:58:19  INFO      State : state_002 (REVISIT)
+15:58:19  DEBUG     Calling LLM ...
+15:58:20  INFO      Action: fill | target=el_2
+15:58:20  DEBUG     Reason: Fill the text input with an example email to prepare for form submission.
+15:58:20  INFO      Filled       : el_2 = 'user@example.com'
+15:58:20  INFO      --- Step 11/15 ---
+15:58:20  INFO      URL   : http://quotes.toscrape.com/login
+15:58:20  INFO      Title : Quotes to Scrape
+15:58:20  INFO      Elements found: 6
+15:58:20  INFO      State : state_002 (REVISIT)
+15:58:20  DEBUG     Calling LLM ...
+15:58:21  INFO      Action: fill | target=el_3
+15:58:21  DEBUG     Reason: Fill the password input to prepare for form submission.
+15:58:21  INFO      Filled       : el_3 = 'examplepassword'
+15:58:21  INFO      --- Step 12/15 ---
+15:58:21  INFO      URL   : http://quotes.toscrape.com/login
+15:58:21  INFO      Title : Quotes to Scrape
+15:58:21  INFO      Elements found: 6
+15:58:21  INFO      State : state_002 (REVISIT)
+15:58:21  DEBUG     Calling LLM ...
+15:58:22  INFO      Action: click | target=el_4
+15:58:22  DEBUG     Reason: Submit the login form to explore the resulting state after form submission.
+15:58:23  INFO      Clicked      : el_4
+15:58:23  INFO      --- Step 13/15 ---
+15:58:23  INFO      URL   : http://quotes.toscrape.com/
+15:58:23  INFO      Title : Quotes to Scrape
+15:58:23  INFO      Elements found: 7
+15:58:23  INFO      State : state_003 (REVISIT)
+15:58:23  DEBUG     Calling LLM ...
+15:58:24  INFO      Action: click | target=el_2
+15:58:24  DEBUG     Reason: Click on the '(about)' link to explore the resulting state and discover new content.
+15:58:25  INFO      Clicked      : el_2
+15:58:25  INFO      --- Step 14/15 ---
+15:58:25  INFO      URL   : http://quotes.toscrape.com/author/Albert-Einstein/
+15:58:25  INFO      Title : Quotes to Scrape
+15:58:25  INFO      Elements found: 3
+15:58:25  INFO      State : state_004 (REVISIT)
+15:58:25  DEBUG     Calling LLM ...
+15:58:26  INFO      Action: click | target=el_0
+15:58:26  DEBUG     Reason: Click on the 'Quotes to Scrape' link to explore the homepage and potentially discover new states from there.
+15:58:27  INFO      Clicked      : el_0
+15:58:27  INFO      --- Step 15/15 ---
+15:58:27  INFO      URL   : http://quotes.toscrape.com/
+15:58:27  INFO      Title : Quotes to Scrape
+15:58:27  INFO      Elements found: 7
+15:58:27  INFO      State : state_003 (REVISIT)
+15:58:27  DEBUG     Calling LLM ...
+15:58:29  INFO      Action: click | target=el_5
+15:58:29  DEBUG     Reason: Click on the 'Next →' link to explore the next page of quotes, which is a new state not yet visited.
+15:58:29  INFO      Clicked      : el_5
+15:58:29  INFO      Graph saved   : logs/20260323_155757_quotes.toscrape.com/graph_output.json
+15:58:29  INFO      States found  : 5
+15:58:29  INFO      Transitions   : 6
+15:58:29  INFO      Exploration complete.

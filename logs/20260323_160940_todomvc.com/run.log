@@ -1,0 +1,65 @@
+16:09:40  INFO      Run directory : logs/20260323_160940_todomvc.com
+16:09:40  INFO      Target URL    : https://todomvc.com/examples/react/dist/
+16:09:40  INFO      Max steps     : 15
+16:09:45  INFO      --- Step 1/15 ---
+16:09:45  INFO      URL   : https://todomvc.com/examples/react/dist/
+16:09:45  INFO      Title : TodoMVC: React
+16:09:45  INFO      Elements found: 3
+16:09:45  INFO      State : state_001 (NEW)
+16:09:45  DEBUG     Calling LLM ...
+16:09:46  INFO      Action: fill | target=el_2
+16:09:46  DEBUG     Reason: Fill the text input with a new to-do item to explore the behavior of adding a new task.
+16:09:46  INFO      Filled       : el_2 = 'Buy groceries'
+16:09:46  INFO      --- Step 2/15 ---
+16:09:46  INFO      URL   : https://todomvc.com/examples/react/dist/
+16:09:46  INFO      Title : TodoMVC: React
+16:09:46  INFO      Elements found: 3
+16:09:47  INFO      State : state_001 (REVISIT)
+16:09:47  DEBUG     Calling LLM ...
+16:09:47  INFO      Action: press | target=el_2
+16:09:47  DEBUG     Reason: Press 'Enter' on the text input to submit the new to-do item and explore the resulting state.
+16:09:48  INFO      Pressed      : 'Enter' on el_2
+16:09:48  INFO      --- Step 3/15 ---
+16:09:48  INFO      URL   : https://todomvc.com/examples/react/dist/
+16:09:48  INFO      Title : TodoMVC: React
+16:09:48  INFO      Elements found: 9
+16:09:48  INFO      State : state_002 (NEW)
+16:09:48  DEBUG     Calling LLM ...
+16:09:49  INFO      Action: click | target=el_6
+16:09:49  DEBUG     Reason: Click on the 'Active' filter to explore the state where only active to-do items are shown.
+16:09:49  INFO      Clicked      : el_6
+16:09:49  INFO      --- Step 4/15 ---
+16:09:49  INFO      URL   : https://todomvc.com/examples/react/dist/#/active
+16:09:49  INFO      Title : TodoMVC: React
+16:09:49  INFO      Elements found: 9
+16:09:49  INFO      State : state_003 (NEW)
+16:09:49  DEBUG     Calling LLM ...
+16:09:51  INFO      Action: click | target=el_5
+16:09:51  DEBUG     Reason: Click on the 'All' filter to explore the state where all to-do items are shown, which is a new state.
+16:09:51  INFO      Clicked      : el_5
+16:09:51  INFO      --- Step 5/15 ---
+16:09:51  INFO      URL   : https://todomvc.com/examples/react/dist/#/
+16:09:51  INFO      Title : TodoMVC: React
+16:09:51  INFO      Elements found: 9
+16:09:51  INFO      State : state_004 (NEW)
+16:09:51  DEBUG     Calling LLM ...
+16:09:52  INFO      Action: click | target=el_7
+16:09:52  DEBUG     Reason: Click on the 'Completed' filter to explore the state where only completed to-do items are shown.
+16:09:52  INFO      Clicked      : el_7
+16:09:52  INFO      --- Step 6/15 ---
+16:09:52  INFO      URL   : https://todomvc.com/examples/react/dist/#/completed
+16:09:52  INFO      Title : TodoMVC: React
+16:09:52  INFO      Elements found: 7
+16:09:52  INFO      State : state_005 (NEW)
+16:09:52  DEBUG     Calling LLM ...
+16:09:53  INFO      Action: click | target=el_3
+16:09:53  DEBUG     Reason: Click on the 'All' filter to explore the state where all to-do items are displayed.
+16:09:53  INFO      Clicked      : el_3
+16:09:53  INFO      --- Step 7/15 ---
+16:09:53  INFO      URL   : https://todomvc.com/examples/react/dist/#/
+16:09:53  INFO      Title : TodoMVC: React
+16:09:53  INFO      Elements found: 10
+16:09:53  INFO      State : state_006 (NEW)
+16:09:53  DEBUG     Calling LLM ...
+16:09:56  INFO      Action: click | target=el_9
+16:09:56  DEBUG     Reason: Click on the 'Clear completed' button to explore the state where completed tasks are cleared.

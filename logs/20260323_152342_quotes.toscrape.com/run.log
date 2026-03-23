@@ -1,0 +1,15 @@
+15:23:42  INFO      Run directory : logs/20260323_152342_quotes.toscrape.com
+15:23:42  INFO      Target URL    : http://quotes.toscrape.com
+15:23:44  INFO      Launching browser and navigating ...
+15:23:46  DEBUG     Page title: Quotes to Scrape
+15:23:46  INFO      Extracting interactive elements ...
+15:23:46  INFO      Found 6 element(s)
+15:23:46  DEBUG       [el_0] <a> selector='[data-ai-id="el_0"]'  text='Quotes to Scrape'
+15:23:46  DEBUG       [el_1] <a> selector='[data-ai-id="el_1"]'  text='Login'
+15:23:46  DEBUG       [el_2] <a> selector='[data-ai-id="el_2"]'  text='(about)'
+15:23:46  DEBUG       [el_3] <a> selector='[data-ai-id="el_3"]'  text='change'
+15:23:46  DEBUG       [el_4] <a> selector='[data-ai-id="el_4"]'  text='Next →'
+15:23:46  DEBUG       [el_5] <a> selector='[data-ai-id="el_5"]'  text='GoodReads.com'
+15:23:46  INFO      Elements saved : logs/20260323_152342_quotes.toscrape.com/elements.json
+15:23:47  INFO      Screenshot saved: logs/20260323_152342_quotes.toscrape.com/state_1.png
+15:23:47  INFO      Done.

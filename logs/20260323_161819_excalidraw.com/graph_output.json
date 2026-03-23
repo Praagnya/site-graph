@@ -1,0 +1,238 @@
+{
+  "nodes": [
+    {
+      "id": "state_001",
+      "url": "https://excalidraw.com/",
+      "title": "Excalidraw Whiteboard",
+      "dom_fingerprint": "7b7276388d46b16902bb086dcb98b6e7a596ae7950b3036985a26a1377d6eac7",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2",
+        "el_3",
+        "el_4",
+        "el_5",
+        "el_6",
+        "el_7",
+        "el_8",
+        "el_9",
+        "el_10",
+        "el_11",
+        "el_12",
+        "el_13",
+        "el_14",
+        "el_15",
+        "el_16",
+        "el_17",
+        "el_18",
+        "el_19",
+        "el_20",
+        "el_21",
+        "el_22",
+        "el_23"
+      ],
+      "screenshot": "logs/20260323_161819_excalidraw.com/step_01.png"
+    },
+    {
+      "id": "state_002",
+      "url": "https://excalidraw.com/",
+      "title": "Excalidraw Whiteboard",
+      "dom_fingerprint": "a18ed711d1b52a1674c7d4e524c8999790b3e75e7d09b5f80b6802f71368648e",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2",
+        "el_3",
+        "el_4",
+        "el_5",
+        "el_6",
+        "el_7",
+        "el_8",
+        "el_9",
+        "el_10",
+        "el_11",
+        "el_12",
+        "el_13",
+        "el_14",
+        "el_15",
+        "el_16",
+        "el_17",
+        "el_18",
+        "el_19",
+        "el_20",
+        "el_21",
+        "el_22",
+        "el_23",
+        "el_24"
+      ],
+      "screenshot": "logs/20260323_161819_excalidraw.com/step_03.png"
+    },
+    {
+      "id": "state_003",
+      "url": "https://excalidraw.com/#room=0394b675e143deea60e2,RDfEadaRPBVsxTsljj66hQ",
+      "title": "Excalidraw Whiteboard",
+      "dom_fingerprint": "7e9d9f12e7e97b77a8703e3bab2d6acaea009a2861c82f84962cdb02a5b1ae91",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2",
+        "el_3",
+        "el_4",
+        "el_5",
+        "el_6",
+        "el_7",
+        "el_8",
+        "el_9",
+        "el_10",
+        "el_11",
+        "el_12",
+        "el_13",
+        "el_14",
+        "el_15",
+        "el_16",
+        "el_17",
+        "el_18",
+        "el_19",
+        "el_20",
+        "el_21",
+        "el_22",
+        "el_23",
+        "el_24",
+        "el_25"
+      ],
+      "screenshot": "logs/20260323_161819_excalidraw.com/step_06.png"
+    },
+    {
+      "id": "state_004",
+      "url": "https://excalidraw.com/#room=0394b675e143deea60e2,RDfEadaRPBVsxTsljj66hQ",
+      "title": "Excalidraw Whiteboard",
+      "dom_fingerprint": "0e8e3a619003ae7f59161b85534253cdec0a2b5fbf2c9d1793b7b667fc29c58e",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2",
+        "el_3",
+        "el_4",
+        "el_5",
+        "el_6",
+        "el_7",
+        "el_8",
+        "el_9",
+        "el_10",
+        "el_11",
+        "el_12",
+        "el_13",
+        "el_14",
+        "el_15",
+        "el_16",
+        "el_17",
+        "el_18",
+        "el_19",
+        "el_20",
+        "el_21",
+        "el_22",
+        "el_23",
+        "el_24",
+        "el_25",
+        "el_26",
+        "el_27",
+        "el_28"
+      ],
+      "screenshot": "logs/20260323_161819_excalidraw.com/step_07.png"
+    },
+    {
+      "id": "state_005",
+      "url": "https://excalidraw.com/#room=0394b675e143deea60e2,RDfEadaRPBVsxTsljj66hQ",
+      "title": "Excalidraw Whiteboard",
+      "dom_fingerprint": "c12066667bfb55f88dd41c71491240e38c2a5eb3321784757466581b76d5e1d5",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2",
+        "el_3",
+        "el_4",
+        "el_5",
+        "el_6",
+        "el_7",
+        "el_8",
+        "el_9",
+        "el_10",
+        "el_11",
+        "el_12",
+        "el_13",
+        "el_14",
+        "el_15",
+        "el_16",
+        "el_17",
+        "el_18",
+        "el_19",
+        "el_20",
+        "el_21",
+        "el_22",
+        "el_23",
+        "el_24",
+        "el_25",
+        "el_26",
+        "el_27"
+      ],
+      "screenshot": "logs/20260323_161819_excalidraw.com/step_12.png"
+    }
+  ],
+  "edges": [
+    {
+      "from": "state_001",
+      "to": "state_002",
+      "action": {
+        "type": "click",
+        "target": "el_2",
+        "value": null,
+        "key": null,
+        "description": "Click on the 'Live collaboration...' button to explore the live collaboration feature, which might lead to a new state or URL."
+      }
+    },
+    {
+      "from": "state_002",
+      "to": "state_003",
+      "action": {
+        "type": "click",
+        "target": "el_24",
+        "value": null,
+        "key": null,
+        "description": "Click on the 'Start session' button to explore any session-related functionality or new state."
+      }
+    },
+    {
+      "from": "state_003",
+      "to": "state_004",
+      "action": {
+        "type": "click",
+        "target": "el_25",
+        "value": null,
+        "key": null,
+        "description": "Click on the 'Start session' button to explore any session-related functionality."
+      }
+    },
+    {
+      "from": "state_004",
+      "to": "state_005",
+      "action": {
+        "type": "click",
+        "target": "el_27",
+        "value": null,
+        "key": null,
+        "description": "Click on the 'Copy link' button to explore any functionality related to copying the session link."
+      }
+    },
+    {
+      "from": "state_005",
+      "to": "state_004",
+      "action": {
+        "type": "click",
+        "target": "el_4",
+        "value": null,
+        "key": null,
+        "description": "Click on the unnamed button (el_4) to explore any new functionality or modal it might trigger."
+      }
+    }
+  ]
+}

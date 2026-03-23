@@ -1,0 +1,31 @@
+15:26:40  INFO      Run directory : logs/20260323_152640_news.ycombinator.com
+15:26:40  INFO      Target URL    : https://news.ycombinator.com
+15:26:43  INFO      Launching browser and navigating ...
+15:26:44  DEBUG     Page title: Hacker News
+15:26:44  INFO      Extracting interactive elements ...
+15:26:44  INFO      Found 22 element(s)
+15:26:44  DEBUG       [el_0] <a> selector='[data-ai-id="el_0"]'  text=''
+15:26:44  DEBUG       [el_1] <a> selector='[data-ai-id="el_1"]'  text='Hacker News'
+15:26:44  DEBUG       [el_2] <a> selector='[data-ai-id="el_2"]'  text='new'
+15:26:44  DEBUG       [el_3] <a> selector='[data-ai-id="el_3"]'  text='past'
+15:26:44  DEBUG       [el_4] <a> selector='[data-ai-id="el_4"]'  text='comments'
+15:26:44  DEBUG       [el_5] <a> selector='[data-ai-id="el_5"]'  text='ask'
+15:26:44  DEBUG       [el_6] <a> selector='[data-ai-id="el_6"]'  text='show'
+15:26:44  DEBUG       [el_7] <a> selector='[data-ai-id="el_7"]'  text='jobs'
+15:26:44  DEBUG       [el_8] <a> selector='[data-ai-id="el_8"]'  text='submit'
+15:26:44  DEBUG       [el_9] <a> selector='[data-ai-id="el_9"]'  text='login'
+15:26:44  DEBUG       [el_10] <a> selector='[data-ai-id="el_10"]'  text=''
+15:26:44  DEBUG       [el_11] <a> selector='[data-ai-id="el_11"]'  text='ykumar.me'
+15:26:44  DEBUG       [el_12] <a> selector='[data-ai-id="el_12"]'  text='ykumards'
+15:26:44  DEBUG       [el_13] <a> selector='[data-ai-id="el_13"]'  text='3 hours ago'
+15:26:44  DEBUG       [el_14] <a> selector='[data-ai-id="el_14"]'  text='hide'
+15:26:44  DEBUG       [el_15] <a> selector='[data-ai-id="el_15"]'  text='More'
+15:26:44  DEBUG       [el_16] <a> selector='[data-ai-id="el_16"]'  text='Guidelines'
+15:26:44  DEBUG       [el_17] <a> selector='[data-ai-id="el_17"]'  text='FAQ'
+15:26:44  DEBUG       [el_18] <a> selector='[data-ai-id="el_18"]'  text='Lists'
+15:26:44  DEBUG       [el_19] <a> selector='[data-ai-id="el_19"]'  text='Security'
+15:26:44  DEBUG       [el_20] <a> selector='[data-ai-id="el_20"]'  text='Contact'
+15:26:44  DEBUG       [el_21] <input> selector='[data-ai-id="el_21"]'  text=''
+15:26:44  INFO      Elements saved : logs/20260323_152640_news.ycombinator.com/elements.json
+15:26:44  INFO      Screenshot saved: logs/20260323_152640_news.ycombinator.com/state_1.png
+15:26:45  INFO      Done.

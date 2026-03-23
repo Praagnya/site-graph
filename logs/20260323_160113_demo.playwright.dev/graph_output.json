@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "id": "state_001",
+      "url": "https://demo.playwright.dev/todomvc/#/",
+      "title": "React • TodoMVC",
+      "dom_fingerprint": "f0b006deec7870f9aa7c15bc746e7764e02d84ae9766f8610ee246b49d7c060a",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2"
+      ],
+      "screenshot": "logs/20260323_160113_demo.playwright.dev/step_01.png"
+    }
+  ],
+  "edges": []
+}

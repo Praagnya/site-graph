@@ -1,0 +1,11 @@
+15:57:43  INFO      Run directory : logs/20260323_155743_quotes.toscrape.com
+15:57:43  INFO      Target URL    : http://quotes.toscrape.com
+15:57:43  INFO      Max steps     : 15
+15:57:46  INFO      --- Step 1/15 ---
+15:57:46  INFO      URL   : http://quotes.toscrape.com/
+15:57:46  INFO      Title : Quotes to Scrape
+15:57:46  INFO      Elements found: 6
+15:57:47  INFO      State : state_001 (NEW)
+15:57:47  DEBUG     Calling LLM ...
+15:57:49  INFO      Action: click | target=el_1
+15:57:49  DEBUG     Reason: Click on the 'Login' link to explore the login page, which is likely a new state.

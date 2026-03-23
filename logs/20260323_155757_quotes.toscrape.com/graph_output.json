@@ -1,0 +1,140 @@
+{
+  "nodes": [
+    {
+      "id": "state_001",
+      "url": "http://quotes.toscrape.com/",
+      "title": "Quotes to Scrape",
+      "dom_fingerprint": "f573a7e641662c77298af4cc71c8b200ea76350ba3e38c19a8c8a840a005c087",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2",
+        "el_3",
+        "el_4",
+        "el_5"
+      ],
+      "screenshot": "logs/20260323_155757_quotes.toscrape.com/step_01.png"
+    },
+    {
+      "id": "state_002",
+      "url": "http://quotes.toscrape.com/login",
+      "title": "Quotes to Scrape",
+      "dom_fingerprint": "f8221cb865ea1edba71b609239e9556fa4b979a3de92dd60e02134f41881a95d",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2",
+        "el_3",
+        "el_4",
+        "el_5"
+      ],
+      "screenshot": "logs/20260323_155757_quotes.toscrape.com/step_02.png"
+    },
+    {
+      "id": "state_003",
+      "url": "http://quotes.toscrape.com/",
+      "title": "Quotes to Scrape",
+      "dom_fingerprint": "af76b56b0fd62458f699a1638501c7ed8bae6480c59ff3c0e6794c2aebec578d",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2",
+        "el_3",
+        "el_4",
+        "el_5",
+        "el_6"
+      ],
+      "screenshot": "logs/20260323_155757_quotes.toscrape.com/step_05.png"
+    },
+    {
+      "id": "state_004",
+      "url": "http://quotes.toscrape.com/author/Albert-Einstein/",
+      "title": "Quotes to Scrape",
+      "dom_fingerprint": "3c293f4fb16cdb9756a558df630329946f8107b014047dd26b884db8ace8a3f0",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2"
+      ],
+      "screenshot": "logs/20260323_155757_quotes.toscrape.com/step_06.png"
+    },
+    {
+      "id": "state_005",
+      "url": "http://quotes.toscrape.com/page/2/",
+      "title": "Quotes to Scrape",
+      "dom_fingerprint": "fb624ba7afad01707c9ede552b3c29e1f3ed94a5080f4a7b98601fb03423de7c",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2",
+        "el_3",
+        "el_4",
+        "el_5",
+        "el_6"
+      ],
+      "screenshot": "logs/20260323_155757_quotes.toscrape.com/step_08.png"
+    }
+  ],
+  "edges": [
+    {
+      "from": "state_001",
+      "to": "state_002",
+      "action": {
+        "type": "click",
+        "target": "el_1",
+        "value": null,
+        "description": "Click on the 'Login' link to explore the login page, which is likely a new state."
+      }
+    },
+    {
+      "from": "state_002",
+      "to": "state_003",
+      "action": {
+        "type": "click",
+        "target": "el_4",
+        "value": null,
+        "description": "Submit the login form to explore the resulting state after form submission."
+      }
+    },
+    {
+      "from": "state_003",
+      "to": "state_004",
+      "action": {
+        "type": "click",
+        "target": "el_2",
+        "value": null,
+        "description": "Click on the '(about)' link to explore the about page."
+      }
+    },
+    {
+      "from": "state_004",
+      "to": "state_003",
+      "action": {
+        "type": "click",
+        "target": "el_0",
+        "value": null,
+        "description": "Click on the 'Quotes to Scrape' link to explore the homepage and discover any new states or elements there."
+      }
+    },
+    {
+      "from": "state_003",
+      "to": "state_005",
+      "action": {
+        "type": "click",
+        "target": "el_5",
+        "value": null,
+        "description": "Click on the 'Next →' link to explore the next page of quotes."
+      }
+    },
+    {
+      "from": "state_005",
+      "to": "state_001",
+      "action": {
+        "type": "click",
+        "target": "el_1",
+        "value": null,
+        "description": "Click on the 'Logout' link to explore the resulting state after logging out."
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "nodes": [
+    {
+      "id": "state_001",
+      "url": "https://demo.playwright.dev/todomvc/#/",
+      "title": "React • TodoMVC",
+      "dom_fingerprint": "f0b006deec7870f9aa7c15bc746e7764e02d84ae9766f8610ee246b49d7c060a",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2"
+      ],
+      "screenshot": "logs/20260323_163059_demo.playwright.dev/step_01.png"
+    },
+    {
+      "id": "state_002",
+      "url": "https://demo.playwright.dev/todomvc/#/",
+      "title": "React • TodoMVC",
+      "dom_fingerprint": "8feb62887d8568a2c241aa18c1f03e0f71ebbd5ba1a0dc9e9955fd9160006543",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2",
+        "el_3",
+        "el_4",
+        "el_5",
+        "el_6",
+        "el_7"
+      ],
+      "screenshot": "logs/20260323_163059_demo.playwright.dev/step_03.png"
+    },
+    {
+      "id": "state_003",
+      "url": "https://demo.playwright.dev/todomvc/#/active",
+      "title": "React • TodoMVC",
+      "dom_fingerprint": "baa2910e7db512898b81cbab830ead4ceaa6516b046973b97c1fbbd81d73ef53",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2",
+        "el_3",
+        "el_4",
+        "el_5",
+        "el_6",
+        "el_7"
+      ],
+      "screenshot": "logs/20260323_163059_demo.playwright.dev/step_05.png"
+    },
+    {
+      "id": "state_004",
+      "url": "https://demo.playwright.dev/todomvc/#/completed",
+      "title": "React • TodoMVC",
+      "dom_fingerprint": "d04056bc7dd5a74bd47e9e558581dda356c5a166c11143218fea4a90b2ac0810",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2",
+        "el_3",
+        "el_4",
+        "el_5",
+        "el_6"
+      ],
+      "screenshot": "logs/20260323_163059_demo.playwright.dev/step_06.png"
+    },
+    {
+      "id": "state_005",
+      "url": "https://demo.playwright.dev/todomvc/#/",
+      "title": "React • TodoMVC",
+      "dom_fingerprint": "0d9cf091da7ca158c25aa39135a9513ab77be9bdfe9079c99647e116fcf3ff35",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2",
+        "el_3",
+        "el_4",
+        "el_5",
+        "el_6",
+        "el_7",
+        "el_8"
+      ],
+      "screenshot": "logs/20260323_163059_demo.playwright.dev/step_07.png"
+    },
+    {
+      "id": "state_006",
+      "url": "https://demo.playwright.dev/todomvc/#/active",
+      "title": "React • TodoMVC",
+      "dom_fingerprint": "ed2be54c3457e17f1226883aa0ab9341d643e4c1287ed606176b1b3efe7f8995",
+      "interactive_elements": [
+        "el_0",
+        "el_1",
+        "el_2",
+        "el_3",
+        "el_4",
+        "el_5",
+        "el_6",
+        "el_7",
+        "el_8"
+      ],
+      "screenshot": "logs/20260323_163059_demo.playwright.dev/step_15.png"
+    }
+  ],
+  "edges": [
+    {
+      "from": "state_001",
+      "to": "state_002",
+      "action": {
+        "type": "press",
+        "target": "el_1",
+        "value": null,
+        "key": "Enter",
+        "description": "Press 'Enter' on the input field to submit the new todo item and explore the resulting state change."
+      }
+    },
+    {
+      "from": "state_002",
+      "to": "state_003",
+      "action": {
+        "type": "click",
+        "target": "el_5",
+        "value": null,
+        "key": null,
+        "description": "Click on the 'Active' link to explore the state showing only active todos."
+      }
+    },
+    {
+      "from": "state_003",
+      "to": "state_004",
+      "action": {
+        "type": "click",
+        "target": "el_6",
+        "value": null,
+        "key": null,
+        "description": "Click on the 'Completed' link to explore the state showing only completed todos."
+      }
+    },
+    {
+      "from": "state_004",
+      "to": "state_005",
+      "action": {
+        "type": "click",
+        "target": "el_3",
+        "value": null,
+        "key": null,
+        "description": "Click on the 'All' link to explore the state showing all todos, as this might lead to a new state or URL."
+      }
+    },
+    {
+      "from": "state_005",
+      "to": "state_002",
+      "action": {
+        "type": "click",
+        "target": "el_8",
+        "value": null,
+        "key": null,
+        "description": "Click on the 'Remo H. Jansen' link to explore a potential new state or page related to the author."
+      }
+    },
+    {
+      "from": "state_005",
+      "to": "state_004",
+      "action": {
+        "type": "click",
+        "target": "el_7",
+        "value": null,
+        "key": null,
+        "description": "Click on the 'Completed' link to explore the state showing completed todos."
+      }
+    },
+    {
+      "from": "state_004",
+      "to": "state_006",
+      "action": {
+        "type": "click",
+        "target": "el_4",
+        "value": null,
+        "key": null,
+        "description": "Click on the 'Active' link to explore the state showing active todos, which hasn't been visited yet in this session."
+      }
+    }
+  ]
+}
