@@ -43,7 +43,7 @@ def setup_logger(run_dir: Path) -> logging.Logger:
     return logger
 
 
-def run(url: str, max_steps: int = MAX_STEPS):
+def run(url: str, max_steps: int = MAX_STEPS, username: str | None = None, password: str | None = None):
     run_dir = make_run_dir(url)
     log = setup_logger(run_dir)
     client = OpenAI()
@@ -53,6 +53,7 @@ def run(url: str, max_steps: int = MAX_STEPS):
     visited_urls = []   # list of URLs seen, passed to LLM to avoid re-exploring
     blocked_targets = []# element ids that triggered external navigation
     current_node_id = None
+    credentials = {"username": username, "password": password} if username and password else None
 
     log.info(f"Run directory : {run_dir}")
     log.info(f"Target URL    : {url}")
@@ -90,7 +91,7 @@ def run(url: str, max_steps: int = MAX_STEPS):
             current_node_id = node_id
 
             # --- Decide ---
-            action = ask_llm(client, current_url, elements, history, visited_urls, blocked_targets, log)
+            action = ask_llm(client, current_url, elements, history, visited_urls, blocked_targets, log, credentials)
             log.info(f"Action: {action.type} | target={action.target}")
             log.debug(f"Reason: {action.description}")
 
@@ -126,7 +127,11 @@ def run(url: str, max_steps: int = MAX_STEPS):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python agent.py <url>")
-        sys.exit(1)
-    run(sys.argv[1])
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("url")
+    parser.add_argument("--username", default=None)
+    parser.add_argument("--password", default=None)
+    parser.add_argument("--max-steps", type=int, default=MAX_STEPS)
+    args = parser.parse_args()
+    run(args.url, max_steps=args.max_steps, username=args.username, password=args.password)

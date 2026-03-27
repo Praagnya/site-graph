@@ -32,7 +32,11 @@ def extract_elements(page: Page) -> list:
                     const cleanPath = href.split('?')[0].split('#')[0];
                     const parts = cleanPath.split('/').filter(Boolean);
                     if (parts.length >= 1) {
-                        const pattern = parts[0];
+                        // Include the last segment in the key if it's numeric (pagination).
+                        // /page/2/ and /page/3/ get distinct keys; /author/X/ and /author/Y/ collapse.
+                        const lastPart = parts[parts.length - 1];
+                        const isNumeric = /^\d+$/.test(lastPart);
+                        const pattern = isNumeric ? parts[0] + '/' + lastPart : parts[0];
                         if (seenLinkPatterns.has(pattern)) continue;
                         seenLinkPatterns.add(pattern);
                     }
